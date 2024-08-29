@@ -1,0 +1,118 @@
+/* UserProfile.css */
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  overflow-x: hidden;
+}
+
+.profile-card, .update-profile-card {
+  width: 90%; /* Adjust the width */
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add margin-bottom */
+  overflow-x: hidden;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 0;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-form .card {
+  width: 90%;
+}
+
+.update-form label {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.update-form input[type="text"],
+.update-form input[type="email"],
+.update-form input[type="password"] {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+.update-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  margin: auto;
+}
+
+.update-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error-message, .success-message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #ff4d4f;
+}
+
+.success-message {
+  color: #5cb85c;
+}
+
+.update-form .file-container {
+  display: flex;
+  align-items: center;
+}
+
+.update-form .custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-form .custom-file-upload:hover {
+  background-color: #0056b3;
+}
+
+.update-form label {
+  margin-left: 10px; /* Adjust margin as needed */
+}
